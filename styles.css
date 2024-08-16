@@ -26,7 +26,7 @@ body{
 .container__titulo, .container__frase{
     display: none;
 }
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 100px) {
     .container__titulo, .container__titulo--negrito {
         font-size: 30px;
     }
