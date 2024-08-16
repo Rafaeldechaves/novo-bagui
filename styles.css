@@ -36,4 +36,10 @@ body{
         display: block;
     }
 }
-Vamos mostrar a frase  se a tela do dispositivo que acessa o site tiver uma largura mínima de 1024px.
+@media screen and (min-width: 1024px) {
+    .container__frase{
+        padding-left: 5em;
+        font-size: 20px;
+        display: block;
+    }
+}
